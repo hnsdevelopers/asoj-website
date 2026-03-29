@@ -1,0 +1,24 @@
+{
+  "name": "Association for Social Justice and Research",
+  "short_name": "ASJR",
+  "description": "Non-profit organization dedicated to promoting social justice through research, advocacy, and community engagement.",
+  "icons": [
+    {
+      "src": "/images/logo-ASOJ-1.jpg",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/logo-ASOJ-1.jpg",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#f97316",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "orientation": "portrait"
+}
