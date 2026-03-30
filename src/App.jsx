@@ -13,6 +13,17 @@ import Gallery from './pages/Gallery'
 import ContactUs from './pages/ContactUs'
 import DonateNow from './pages/DonateNow'
 
+/* 🔥 Scroll to Top Component (ONLY ADDITION) */
+const ScrollToTop = () => {
+  const { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
+  return null
+}
+
 // SEO Component to handle dynamic meta tags
 const SEO = ({ title, description, keywords, image, url }) => {
   const location = useLocation()
@@ -72,6 +83,7 @@ const SEO = ({ title, description, keywords, image, url }) => {
 function App() {
   return (
     <>
+      <ScrollToTop /> {/* 👈 ONLY NEW LINE ADDED */}
       <SEO />
       <div className="min-h-screen flex flex-col">
         <Header />
