@@ -152,7 +152,7 @@ const Header = () => {
             <Link to="/" className="flex items-center gap-3 group">
               <div className="relative">
                 <div className="absolute inset-0 rounded-full blur-md opacity-50 group-hover:opacity-75 transition"></div>
-                <img src="images/logo-ASOJ-1.jpg" className='h-16 w-16' alt="" />
+                <img src="images/logo-ASOJ-1.jpg" className='h-16 w-16 rounded-full' alt="" />
               </div>
               <div className="hidden sm:block">
                 <h1 className="font-bold text-lg md:text-xl text-gray-800 leading-tight">
