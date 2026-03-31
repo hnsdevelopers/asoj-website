@@ -211,7 +211,7 @@ const Footer = () => {
               © {currentYear} Copyright by Association for Social Justice and Research. All rights reserved.
             </p>
             <p className="text-xs text-gray-600">
-              Designed for ASOJ with <Heart className="w-3 h-3 inline text-red-500 fill-red-500" /> by Sharwan Kumar
+              Designed and developed for ASOJ with <Heart className="w-3 h-3 inline text-red-500 fill-red-500" /> by Sharwan Kumar
             </p>
           </div>
         </div>
