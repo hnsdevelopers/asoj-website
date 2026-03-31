@@ -29,11 +29,11 @@ const SEO = ({ title, description, keywords, image, url }) => {
   const location = useLocation()
   const currentUrl = `https://asoj.in${location.pathname}`
   
-  const defaultTitle = "ASJR - Association for Social Justice and Research"
+  const defaultTitle = "ASOJ - Association for Social Justice and Research"
   const defaultDescription = "Non-profit organization dedicated to promoting social justice through research, advocacy, and community engagement. Working for women empowerment, child rights, education, and health since 1994."
   const defaultImage = "https://asoj.in/og-image.jpg"
   
-  const pageTitle = title ? `${title} | ASJR` : defaultTitle
+  const pageTitle = title ? `${title} | ASOJ` : defaultTitle
   const pageDescription = description || defaultDescription
   const pageImage = image || defaultImage
   const pageUrl = url || currentUrl
@@ -95,7 +95,7 @@ function App() {
                 <SEO 
                   title="About Us" 
                   description="Learn about Association for Social Justice and Research, our mission, vision, and the work we do to promote social justice and equality since 1994."
-                  keywords="about ASJR, NGO about, social justice organization, non-profit history"
+                  keywords="about ASOJ, NGO about, social justice organization, non-profit history"
                 />
                 <About />
               </>
@@ -105,7 +105,7 @@ function App() {
                 <SEO 
                   title="Our History" 
                   description="Discover the journey of Association for Social Justice and Research since 1994, our achievements, and the milestones in promoting social justice."
-                  keywords="ASJR history, NGO history, social justice journey, organization milestones"
+                  keywords="ASOJ history, NGO history, social justice journey, organization milestones"
                 />
                 <OurHistory />
               </>
@@ -115,7 +115,7 @@ function App() {
                 <SEO 
                   title="Our Vision & Mission" 
                   description="Our vision for a just and equitable society and mission to promote social justice through research, advocacy, and community engagement."
-                  keywords="ASJR vision, ASJR mission, social justice goals, NGO objectives"
+                  keywords="ASOJ vision, ASOJ mission, social justice goals, NGO objectives"
                 />
                 <OurVisionMission />
               </>
@@ -125,7 +125,7 @@ function App() {
                 <SEO 
                   title="Our Projects" 
                   description="Explore our impactful projects in health, education, women empowerment, child rights, livelihood, and disaster response."
-                  keywords="ASJR projects, NGO projects, health programs, education initiatives, women empowerment programs"
+                  keywords="ASOJ projects, NGO projects, health programs, education initiatives, women empowerment programs"
                 />
                 <OurProject />
               </>
@@ -155,7 +155,7 @@ function App() {
                 <SEO 
                   title="Gallery" 
                   description="View our photo gallery showcasing moments of impact, community engagement, and the work we do to promote social justice."
-                  keywords="ASJR gallery, NGO photos, community outreach images, social justice pictures"
+                  keywords="ASOJ gallery, NGO photos, community outreach images, social justice pictures"
                 />
                 <Gallery />
               </>
@@ -165,7 +165,7 @@ function App() {
                 <SEO 
                   title="Contact Us" 
                   description="Get in touch with Association for Social Justice and Research. Find our office addresses, phone number, email, and send us a message."
-                  keywords="contact ASJR, NGO contact, social justice organization address"
+                  keywords="contact ASOJ, NGO contact, social justice organization address"
                 />
                 <ContactUs />
               </>
@@ -175,7 +175,7 @@ function App() {
                 <SEO 
                   title="Donate Now" 
                   description="Support our mission to promote social justice. Your donation helps us empower women, educate children, and build stronger communities."
-                  keywords="donate to ASJR, support NGO, social justice donation, tax exempt donation"
+                  keywords="donate to ASOJ, support NGO, social justice donation, tax exempt donation"
                 />
                 <DonateNow />
               </>
