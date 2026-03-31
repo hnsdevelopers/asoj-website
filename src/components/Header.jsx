@@ -161,7 +161,7 @@ const Header = () => {
                 </h1>
               </div>
               <div className="block sm:hidden">
-                <h1 className="font-bold text-sm text-gray-800">ASJR</h1>
+                <h1 className="font-bold text-sm text-gray-800">ASOJ</h1>
               </div>
             </Link>
 
