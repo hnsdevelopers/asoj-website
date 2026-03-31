@@ -85,7 +85,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <img src="images/logo-ASOJ-1.jpg" className='rounded-full h-14 w-14' alt="" />
-              <h3 className="text-white font-bold text-lg">ASJR</h3>
+              <h3 className="text-white font-bold text-lg">ASOJ</h3>
             </div>
             <p className="text-sm text-gray-400 mb-4 leading-relaxed">
               Association for Social Justice and Research is dedicated to promoting social justice through research, 
@@ -180,7 +180,7 @@ const Footer = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="ASJR Location Map"
+                title="ASOJ Location Map"
               ></iframe>
             </div>
             
