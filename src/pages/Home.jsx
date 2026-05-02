@@ -17,6 +17,7 @@ import {
   ArrowRight
 } from 'lucide-react'
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom;'
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -221,7 +222,8 @@ const Home = () => {
                 </p>
               </div>
               <button className="bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition font-semibold inline-flex items-center gap-2">
-                About More <ArrowRight className="w-4 h-4" />
+                
+                <Link to='about'>About More <ArrowRight className="w-4 h-4" /></Link>
               </button>
             </div>
             
