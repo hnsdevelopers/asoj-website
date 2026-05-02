@@ -18,6 +18,7 @@ import {
 } from 'lucide-react'
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom;'
+import image from "./images/healthandwash.jpeg"
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -46,7 +47,7 @@ const Home = () => {
   const projects = [
     { 
       name: "Health & Wash", 
-      image: "/images/healthandwash.jpeg",
+      image: image,
       color: "from-blue-500 to-blue-600",
       description: "Promoting hygiene and healthcare access through community awareness programs, health camps, and sanitation initiatives."
     },
