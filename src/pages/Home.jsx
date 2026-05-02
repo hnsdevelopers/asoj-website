@@ -46,7 +46,7 @@ const Home = () => {
   const projects = [
     { 
       name: "Health & Wash", 
-      image: "/images/healthandwash.jpeg",
+      image: "/images/healthandwash.jpg",
       color: "from-blue-500 to-blue-600",
       description: "Promoting hygiene and healthcare access through community awareness programs, health camps, and sanitation initiatives."
     },
