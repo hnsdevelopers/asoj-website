@@ -15,6 +15,19 @@ const Gallery = () => {
     { id: 7, src: "/images/disaster_management.jpg", title: "Counseling Session", category: "Support Services" },
     { id: 8, src: "/images/health-and-wash.jpg", title: "Health Camp", category: "Health" },
     { id: 9, src: "/images/WhatsApp-Image-2024-03-19-at-13.31.38-1.jpg", title: "Awareness Rally", category: "Awareness" },
+    { id: 10, src: "https://freeimage.host/i/BLaU0Zv", title: "Genera", category: "Awareness" },
+{ id: 11, src: "https://freeimage.host/i/BLaUlwJ", title: "Genera", category: "Awareness" },
+{ id: 12, src: "https://freeimage.host/i/BLaUcua", title: "Genera", category: "Awareness" },
+{ id: 13, src: "https://freeimage.host/i/BLaUYyg", title: "Genera", category: "Awareness" },
+{ id: 14, src: "https://freeimage.host/i/BLaUEnR", title: "Genera", category: "Awareness" },
+{ id: 15, src: "https://freeimage.host/i/BLaUGGp", title: "Genera", category: "Awareness" },
+{ id: 16, src: "https://freeimage.host/i/BLaUM6N", title: "Genera", category: "Awareness" },
+{ id: 17, src: "https://freeimage.host/i/BLaUWFI", title: "Genera", category: "Awareness" },
+{ id: 18, src: "https://freeimage.host/i/BLaUXat", title: "Genera", category: "Awareness" },
+{ id: 19, src: "https://freeimage.host/i/BLaUh8X", title: "Genera", category: "Awareness" },
+{ id: 20, src: "https://freeimage.host/i/BLaUw9n", title: "Genera", category: "Awareness" },
+{ id: 21, src: "https://freeimage.host/i/BLaUNus", title: "Genera", category: "Awareness" },
+{ id: 22, src: "https://freeimage.host/i/BLaUOwG", title: "Genera", category: "Awareness" }
   ]
 
   const categories = ["All", "Community Outreach", "Education", "Child Rights", "Women Empowerment", "Health", "Support Services", "Awareness"]
