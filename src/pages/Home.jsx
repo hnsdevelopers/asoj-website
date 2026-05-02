@@ -429,9 +429,11 @@ const Home = () => {
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-800 mb-3">{project.name}</h3>
                   <p className="text-gray-600 leading-relaxed">{project.description}</p>
+                  <Link to=`gallery/${project.name.replace(" ", "")}`>
                   <button className="mt-4 text-orange-500 font-semibold inline-flex items-center gap-1 group-hover:gap-2 transition-all">
                     Learn More <ArrowRight className="w-4 h-4" />
                   </button>
+                </Link>
                 </div>
               </div>
             ))}
