@@ -10,6 +10,7 @@ import {
   Home,
   Info,
   History,
+  Newspaper,
   Target,
   FolderKanban,
   Users,
@@ -84,6 +85,7 @@ const Header = () => {
       items: [
         { path: '/gallery', label: 'Gallery', icon: Image, description: 'Photos & events' },
         { path: '/contact-us', label: 'Contact Us', icon: Mail, description: 'Get in touch' },
+        { path: '/blog', label: 'Blog', icon: Newspaper, description: 'Read articles' },
       ]
     }
   }
