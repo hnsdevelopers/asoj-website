@@ -59,6 +59,7 @@ import { Link } from 'react-router-dom'
     }
   ]
 
+return (
 
       {/* Our Projects Section */}
       <section className="py-16 bg-white">
@@ -96,7 +97,6 @@ import { Link } from 'react-router-dom'
         </div>
       </section>
 
-    </div>
   )
 }
 
