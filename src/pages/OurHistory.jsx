@@ -67,7 +67,7 @@ const OurHistory = () => {
               </div>
               <div className="bg-gradient-to-r from-orange-50 to-pink-50 p-6 rounded-xl">
                 <Heart className="w-10 h-10 text-orange-500 mb-3" />
-                <h3 className="text-lg font-bold text-gray-800 mb-2">Anganwadi Success</h3>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Anganwadi Initiated in wastepickers community </h3>
                 <p className="text-gray-600 text-sm">
                   In December 2017, an Anganwadi cum Crèche was established in the community through advocacy efforts.
                 </p>
