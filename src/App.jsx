@@ -12,6 +12,7 @@ import ProposedInterventionArea from './pages/ProposedInterventionArea'
 import Gallery from './pages/Gallery'
 import ContactUs from './pages/ContactUs'
 import DonateNow from './pages/DonateNow'
+import EducationGallery from './pages/EducationGallery'
 
 /* 🔥 Scroll to Top Component (ONLY ADDITION) */
 const ScrollToTop = () => {
@@ -83,7 +84,7 @@ const SEO = ({ title, description, keywords, image, url }) => {
 function App() {
   return (
     <>
-      <ScrollToTop /> {/* 👈 ONLY NEW LINE ADDED */}
+      <ScrollToTop />
       <SEO />
       <div className="min-h-screen flex flex-col">
         <Header />
@@ -178,6 +179,16 @@ function App() {
                   keywords="donate to ASOJ, support NGO, social justice donation, tax exempt donation"
                 />
                 <DonateNow />
+              </>
+            } />
+            <Route path="/gallery/education" element={
+              <>
+                <SEO 
+                  title="Gallery | Eduaction" 
+                  description="Support our mission to promote social justice. Your donation helps us empower women, educate children, and build stronger communities."
+                  keywords="donate to ASOJ, support NGO, social justice donation, tax exempt donation"
+                />
+                <EducationGallery />
               </>
             } />
           </Routes>
