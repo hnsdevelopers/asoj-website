@@ -1,7 +1,7 @@
 import { 
   Heart, 
   BookOpen, 
-  Users, 
+  Users,
   Shield, 
   GraduationCap, 
   Star,
