@@ -17,7 +17,7 @@ import {
   ArrowRight
 } from 'lucide-react'
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom;'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
