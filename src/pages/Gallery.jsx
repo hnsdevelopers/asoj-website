@@ -15,7 +15,6 @@ const Gallery = () => {
     { id: 7, src: "/images/disaster_management.jpg", title: "Counseling Session", category: "Support Services" },
     { id: 8, src: "/images/health-and-wash.jpg", title: "Health Camp", category: "Health" },
     { id: 9, src: "/images/WhatsApp-Image-2024-03-19-at-13.31.38-1.jpg", title: "Awareness Rally", category: "Awareness" },
-    { id: 10, src: "https://freeimage.host/i/BLaU0Zv", title: "Genera", category: "Awareness" },
     { id: 10, src: "https://iili.io/BLaU0Zv.md.jpg", title: "Genera", category: "Awareness" },
     { id: 11, src: "https://iili.io/BLaUlwJ.md.jpg", title: "Genera", category: "Awareness" },
     { id: 12, src: "https://iili.io/BLaUcua.md.jpg", title: "Genera", category: "Awareness" },
