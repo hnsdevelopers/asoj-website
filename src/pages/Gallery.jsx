@@ -28,7 +28,10 @@ const Gallery = () => {
     { id: 19, src: "https://iili.io/BLaUh8X.md.jpg", title: "Genera", category: "Awareness" },
     { id: 20, src: "https://iili.io/BLaUw9n.md.jpg", title: "Genera", category: "Awareness" },
     { id: 21, src: "https://iili.io/BLaUNus.md.jpg", title: "Genera", category: "Awareness" },
-    { id: 22, src: "https://iili.io/BLaUOwG.md.jpg", title: "Genera", category: "Awareness" }
+    { id: 22, src: "https://iili.io/BLaUOwG.md.jpg", title: "Genera", category: "Awareness" },
+    { id: 23, src: "https://iili.io/BLa6RWJ.md.jpg", title: "Genera", category: "Awareness" },
+    { id: 24, src: "https://iili.io/BLa6Axa.md.jpg", title: "Genera", category: "Awareness" },
+    { id: 25, src: "https://iili.io/BLa65iv.md.jpg", title: "Genera", category: "Awareness" }
   ]
 
   const categories = ["All", "Community Outreach", "Education", "Child Rights", "Women Empowerment", "Health", "Support Services", "Awareness"]
