@@ -221,10 +221,12 @@ const Home = () => {
                   understanding of social justice issues among the general public, policymakers, and other stakeholders.
                 </p>
               </div>
+              <Link to='about'>
               <button className="bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition font-semibold inline-flex items-center gap-2">
                 
-                <Link to='about'>About More <ArrowRight className="w-4 h-4" /></Link>
+                About More <ArrowRight className="w-4 h-4" />
               </button>
+                </Link>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-lg">
