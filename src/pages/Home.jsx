@@ -46,7 +46,7 @@ const Home = () => {
   const projects = [
     { 
       name: "Health & Wash", 
-      image: "/images/healthandwash.jpg",
+      image: "https://iili.io/BLaUh8X.md.jpg",
       color: "from-blue-500 to-blue-600",
       description: "Promoting hygiene and healthcare access through community awareness programs, health camps, and sanitation initiatives."
     },
@@ -58,7 +58,7 @@ const Home = () => {
     },
     { 
       name: "Education", 
-      image: "/images/WhatsApp-Image-2024-03-19-at-13.31.34.jpg",
+      image: "https://iili.io/BLaUYyg.md.jpg",
       color: "from-purple-500 to-purple-600",
       description: "Quality education for all children through remedial classes, learning centers, and educational support programs."
     },
@@ -70,7 +70,7 @@ const Home = () => {
     },
     { 
       name: "Women Empowerment", 
-      image: "/images/women_empowerment.jpg",
+      image: "https://iili.io/BLaUNus.md.jpg",
       color: "from-pink-500 to-pink-600",
       description: "Building confidence and independence through self-help groups, leadership training, and economic empowerment."
     },
