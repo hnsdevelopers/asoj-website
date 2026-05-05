@@ -201,15 +201,6 @@ const NotFound = () => {
           </div>
         </div>
       </section>
-
-      {/* Decorative Footer */}
-      <div className="bg-gradient-to-r from-orange-500 to-red-500 py-8">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-white text-sm">
-            Association for Social Justice and Research - Working for social justice since 1994
-          </p>
-        </div>
-      </div>
     </div>
   )
 }
