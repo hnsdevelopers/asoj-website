@@ -9,9 +9,6 @@ import {
   Heart,
   Share2,
   BookOpen,
-  Facebook,
-  Twitter,
-  Linkedin,
   Mail
 } from 'lucide-react'
 
@@ -153,7 +150,7 @@ const BlogPost = () => {
                     onClick={shareOnFacebook}
                     className="p-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
                   >
-                    <Facebook className="w-5 h-5" />
+                    <Mail className="w-5 h-5" />
                   </button>
                   <button
                     onClick={shareOnTwitter}
@@ -165,7 +162,7 @@ const BlogPost = () => {
                     onClick={shareOnLinkedin}
                     className="p-2 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition"
                   >
-                    <Linkedin className="w-5 h-5" />
+                    <Mail className="w-5 h-5" />
                   </button>
                   <button
                     onClick={() => window.location.href = `mailto:?subject=${blog.title}&body=${window.location.href}`}
