@@ -84,7 +84,7 @@ const Footer = () => {
           {/* Organization Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img src="images/logo-ASOJ-1.jpg" className='rounded-full h-14 w-14' alt="" />
+              <img src="/images/logo-ASOJ-1.jpg" className='rounded-full h-14 w-14' alt="" />
               <h3 className="text-white font-bold text-lg">ASOJ</h3>
             </div>
             <p className="text-sm text-gray-400 mb-4 leading-relaxed">
