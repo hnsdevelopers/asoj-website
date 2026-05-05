@@ -22,6 +22,7 @@ import WomenEmpowermentDetail from './pages/projects/WomenEmpowermentDetail'
 import AnnualReports from './pages/AnnualReports'
 import Blog from './pages/Blog'
 import BlogPost from './pages/BlogPost'
+import NotFound from './pages/NotFound'
 
 /* 🔥 Scroll to Top Component (ONLY ADDITION) */
 const ScrollToTop = () => {
@@ -294,6 +295,17 @@ function App() {
             keywords="ASOJ blog, impact story, success story, community development"
         />
         <BlogPost />
+    </>
+} />
+
+            <Route path="*" element={
+    <>
+        <SEO 
+            title="Page Not Found" 
+            description="The page you are looking for does not exist or has been moved. Please check the URL or navigate to our homepage."
+            keywords="404 error, page not found, ASOJ, Association for Social Justice and Research"
+        />
+        <NotFound />
     </>
 } />
           </Routes>
