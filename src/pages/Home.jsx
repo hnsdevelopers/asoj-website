@@ -49,7 +49,7 @@ const Home = () => {
       image: "https://iili.io/BLaUh8X.md.jpg",
       color: "from-blue-500 to-blue-600",
       description: "Promoting hygiene and healthcare access through community awareness programs, health camps, and sanitation initiatives.",
-      url: "/health-wash"
+      url: "/our-project/health-wash"
     },
     { 
       name: "Livelihood & Skill Development", 
