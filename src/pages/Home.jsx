@@ -73,7 +73,8 @@ const Home = () => {
       name: "Women Empowerment", 
       image: "https://iili.io/BLaUNus.md.jpg",
       color: "from-pink-500 to-pink-600",
-      description: "Building confidence and independence through self-help groups, leadership training, and economic empowerment."
+      description: "Building confidence and independence through self-help groups, leadership training, and economic empowerment.",
+      url: "/our-project/women-empowerment"
     },
     { 
       name: "Disaster Response", 
