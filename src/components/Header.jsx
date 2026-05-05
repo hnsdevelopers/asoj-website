@@ -24,7 +24,8 @@ import {
   BookOpen,
   Award,
   Shield,
-  Sparkles
+  Sparkles,
+  FileChartLine,
 } from 'lucide-react'
 import SearchModal from './SearchModal'
 
