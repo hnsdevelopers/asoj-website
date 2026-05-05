@@ -135,7 +135,7 @@ const About = () => {
                 <div className="relative flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/2 md:text-right">
                     <div className="bg-white p-6 rounded-xl shadow-lg ml-8 md:ml-0">
-                      <div className="absolute left-0 md:left-auto md:right-0 w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center -ml-4 md:mr-4">
+                      <div className="absolute left-0 md:left-[50%] md:right-0 w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center -ml-4 md:mr-4">
                         <Calendar className="w-4 h-4 text-white" />
                       </div>
                       <h3 className="text-xl font-bold text-orange-600 mb-2">2020-21</h3>
@@ -169,7 +169,7 @@ const About = () => {
                 <div className="relative flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/2 md:text-right">
                     <div className="bg-white p-6 rounded-xl shadow-lg ml-8 md:ml-0">
-                      <div className="absolute left-0 md:left-auto md:right-0 w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center -ml-4 md:mr-4">
+                      <div className="absolute left-0 md:left-[50%] md:right-0 w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center -ml-4 md:mr-4">
                         <Calendar className="w-4 h-4 text-white" />
                       </div>
                       <h3 className="text-xl font-bold text-orange-600 mb-2">2025-26</h3>
