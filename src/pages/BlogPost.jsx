@@ -156,7 +156,7 @@ const BlogPost = () => {
                     onClick={shareOnTwitter}
                     className="p-2 bg-blue-400 text-white rounded-lg hover:bg-blue-500 transition"
                   >
-                    <Twitter className="w-5 h-5" />
+                    <Mail className="w-5 h-5" />
                   </button>
                   <button
                     onClick={shareOnLinkedin}
