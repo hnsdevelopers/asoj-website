@@ -1,4 +1,4 @@
-import { Award, Globe, MapPin, BookOpen, Heart, Users, Target, Shield, Calendar, TrendingUp, CheckCircle, Star, HandHelping, Droplets, GraduationCap, Briefcase, Sparkles } from 'lucide-react'
+import { Award, Eye, Globe, MapPin, BookOpen, Heart, Users, Target, Shield, Calendar, TrendingUp, CheckCircle, Star, HandHelping, Droplets, GraduationCap, Briefcase, Sparkles } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 const About = () => {
