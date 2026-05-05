@@ -48,7 +48,8 @@ const Home = () => {
       name: "Health & Wash", 
       image: "https://iili.io/BLaUh8X.md.jpg",
       color: "from-blue-500 to-blue-600",
-      description: "Promoting hygiene and healthcare access through community awareness programs, health camps, and sanitation initiatives."
+      description: "Promoting hygiene and healthcare access through community awareness programs, health camps, and sanitation initiatives.",
+      url: "/health-wash"
     },
     { 
       name: "Livelihood & Skill Development", 
@@ -429,7 +430,7 @@ const Home = () => {
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-800 mb-3">{project.name}</h3>
                   <p className="text-gray-600 leading-relaxed">{project.description}</p>
-                  <Link to={"gallery/"+project.name.replace(" ", "")}>
+                  <Link to={project.url}>
                   <button className="mt-4 text-orange-500 font-semibold inline-flex items-center gap-1 group-hover:gap-2 transition-all">
                     Learn More <ArrowRight className="w-4 h-4" />
                   </button>
