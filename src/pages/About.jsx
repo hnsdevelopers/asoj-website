@@ -1,4 +1,4 @@
-import { Award, Eye, Globe, MapPin, BookOpen, Heart, Users, Target, Shield, Calendar, TrendingUp, CheckCircle, Star, HandHelping, Droplets, GraduationCap, Briefcase, Sparkles } from 'lucide-react'
+import { Award, Globe, MapPin, BookOpen, Heart, Users, Target, Shield, Calendar, TrendingUp, CheckCircle, Star, HandHelping, Droplets, GraduationCap, Briefcase, Sparkles, Quote } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 const About = () => {
@@ -18,7 +18,6 @@ const About = () => {
             <p className="text-xl md:text-2xl mb-6">National Level Registered Society | Established 1994</p>
             <div className="flex flex-wrap justify-center gap-4">
               <span className="px-4 py-2 bg-orange-500/20 backdrop-blur-sm rounded-full text-sm">30+ Years of Service</span>
-              <span className="px-4 py-2 bg-orange-500/20 backdrop-blur-sm rounded-full text-sm">FCRA Registered</span>
               <span className="px-4 py-2 bg-orange-500/20 backdrop-blur-sm rounded-full text-sm">80G & 12A Certified</span>
             </div>
           </div>
@@ -48,13 +47,7 @@ const About = () => {
                 approach combines rigorous research, grassroots advocacy, community mobilization, and strategic partnerships 
                 to create sustainable change in the lives of marginalized communities.
               </p>
-              
-              <p className="text-gray-700 leading-relaxed mb-8 text-lg">
-                Registered under the <strong>Societies Registration Act, 1860</strong> and compliant with <strong>FCRA (Foreign 
-                Contribution Regulation Act), 1976</strong>, ASoJ maintains the highest standards of transparency and accountability. 
-                The Society has been exempted from Income Tax under the Income Tax Act, 1961, and all donations to ASoJ are 
-                eligible for 80G tax benefits.
-              </p>
+             
             </div>
 
             {/* Mission & Vision Cards */}
@@ -87,7 +80,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Our History Section - Detailed Timeline - FIXED */}
+      {/* Our History Section - Detailed Timeline */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
@@ -97,19 +90,17 @@ const About = () => {
               <p className="text-gray-600 mt-4">Three decades of dedicated service to marginalized communities</p>
             </div>
 
-            {/* Timeline - Fixed alignment */}
             <div className="relative">
-              {/* Center Line - Hidden on mobile, visible on desktop */}
-              <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-0.5 h-full bg-orange-300"></div>
+              {/* Timeline Line */}
+              <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-0.5 h-full bg-orange-300"></div>
               
-              {/* Timeline Items - Alternating left and right on desktop */}
+              {/* Timeline Items */}
               <div className="space-y-12">
-                {/* Item 1 - 1994 (Left on desktop) */}
-                <div className="relative flex flex-col md:flex-row">
-                  <div className="md:w-1/2 md:pr-12">
-                    <div className="bg-white p-6 rounded-xl shadow-lg relative">
-                      <div className="absolute -left-3 md:left-auto md:-right-3 top-6 w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center">
-                        <Calendar className="w-3 h-3 text-white" />
+                <div className="relative flex flex-col md:flex-row gap-6">
+                  <div className="md:w-1/2 md:text-right">
+                    <div className="bg-white p-6 rounded-xl shadow-lg ml-8 md:ml-0">
+                      <div className="absolute left-0 md:left-auto md:right-0 w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center -ml-4 md:mr-4">
+                        <Calendar className="w-4 h-4 text-white" />
                       </div>
                       <h3 className="text-xl font-bold text-orange-600 mb-2">1994</h3>
                       <h4 className="text-lg font-bold text-gray-800 mb-2">Foundation of ASoJ</h4>
@@ -120,16 +111,15 @@ const About = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="hidden md:block md:w-1/2"></div>
+                  <div className="md:w-1/2"></div>
                 </div>
 
-                {/* Item 2 - 2013 (Right on desktop) */}
-                <div className="relative flex flex-col md:flex-row">
-                  <div className="hidden md:block md:w-1/2"></div>
-                  <div className="md:w-1/2 md:pl-12">
-                    <div className="bg-white p-6 rounded-xl shadow-lg relative">
-                      <div className="absolute -left-3 md:left-auto md:-left-3 top-6 w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center">
-                        <Calendar className="w-3 h-3 text-white" />
+                <div className="relative flex flex-col md:flex-row gap-6">
+                  <div className="md:w-1/2"></div>
+                  <div className="md:w-1/2">
+                    <div className="bg-white p-6 rounded-xl shadow-lg mr-8 md:mr-0">
+                      <div className="absolute left-0 md:left-1/2 w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center -ml-4">
+                        <Calendar className="w-4 h-4 text-white" />
                       </div>
                       <h3 className="text-xl font-bold text-orange-600 mb-2">2013</h3>
                       <h4 className="text-lg font-bold text-gray-800 mb-2">Mahila Panchayat Programme Launched</h4>
@@ -142,12 +132,11 @@ const About = () => {
                   </div>
                 </div>
 
-                {/* Item 3 - 2020-21 (Left on desktop) */}
-                <div className="relative flex flex-col md:flex-row">
-                  <div className="md:w-1/2 md:pr-12">
-                    <div className="bg-white p-6 rounded-xl shadow-lg relative">
-                      <div className="absolute -left-3 md:left-auto md:-right-3 top-6 w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center">
-                        <Calendar className="w-3 h-3 text-white" />
+                <div className="relative flex flex-col md:flex-row gap-6">
+                  <div className="md:w-1/2 md:text-right">
+                    <div className="bg-white p-6 rounded-xl shadow-lg ml-8 md:ml-0">
+                      <div className="absolute left-0 md:left-auto md:right-0 w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center -ml-4 md:mr-4">
+                        <Calendar className="w-4 h-4 text-white" />
                       </div>
                       <h3 className="text-xl font-bold text-orange-600 mb-2">2020-21</h3>
                       <h4 className="text-lg font-bold text-gray-800 mb-2">CRY Partnership Begins</h4>
@@ -157,16 +146,15 @@ const About = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="hidden md:block md:w-1/2"></div>
+                  <div className="md:w-1/2"></div>
                 </div>
 
-                {/* Item 4 - 2022-23 (Right on desktop) */}
-                <div className="relative flex flex-col md:flex-row">
-                  <div className="hidden md:block md:w-1/2"></div>
-                  <div className="md:w-1/2 md:pl-12">
-                    <div className="bg-white p-6 rounded-xl shadow-lg relative">
-                      <div className="absolute -left-3 md:left-auto md:-left-3 top-6 w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center">
-                        <Calendar className="w-3 h-3 text-white" />
+                <div className="relative flex flex-col md:flex-row gap-6">
+                  <div className="md:w-1/2"></div>
+                  <div className="md:w-1/2">
+                    <div className="bg-white p-6 rounded-xl shadow-lg mr-8 md:mr-0">
+                      <div className="absolute left-0 md:left-1/2 w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center -ml-4">
+                        <Calendar className="w-4 h-4 text-white" />
                       </div>
                       <h3 className="text-xl font-bold text-orange-600 mb-2">2022-23</h3>
                       <h4 className="text-lg font-bold text-gray-800 mb-2">Digital Learning Centre Established</h4>
@@ -178,12 +166,11 @@ const About = () => {
                   </div>
                 </div>
 
-                {/* Item 5 - 2025-26 (Left on desktop) */}
-                <div className="relative flex flex-col md:flex-row">
-                  <div className="md:w-1/2 md:pr-12">
-                    <div className="bg-white p-6 rounded-xl shadow-lg relative">
-                      <div className="absolute -left-3 md:left-auto md:-right-3 top-6 w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center">
-                        <Calendar className="w-3 h-3 text-white" />
+                <div className="relative flex flex-col md:flex-row gap-6">
+                  <div className="md:w-1/2 md:text-right">
+                    <div className="bg-white p-6 rounded-xl shadow-lg ml-8 md:ml-0">
+                      <div className="absolute left-0 md:left-auto md:right-0 w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center -ml-4 md:mr-4">
+                        <Calendar className="w-4 h-4 text-white" />
                       </div>
                       <h3 className="text-xl font-bold text-orange-600 mb-2">2025-26</h3>
                       <h4 className="text-lg font-bold text-gray-800 mb-2">Azim Premji Foundation Support</h4>
@@ -193,7 +180,7 @@ const About = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="hidden md:block md:w-1/2"></div>
+                  <div className="md:w-1/2"></div>
                 </div>
               </div>
             </div>
@@ -552,6 +539,21 @@ const About = () => {
         </div>
       </section>
 
+      {/* Testimonial / Quote Section */}
+      {/* <section className="py-16 bg-gradient-to-r from-orange-500 to-red-500 text-white">
+        <div className="container mx-auto px-4 text-center">
+          <div className="max-w-3xl mx-auto">
+            <Quote className="w-12 h-12 mx-auto mb-6 opacity-50" />
+            <p className="text-xl md:text-2xl leading-relaxed mb-6">
+              "We believe that working on grassroots level alone will not help much to solve problems in a long-term manner. 
+              Systemic change requires research, advocacy, community mobilization, and persistent engagement with government systems."
+            </p>
+            <p className="font-semibold">- Dr. Kamala Upadhayay</p>
+            <p className="text-sm opacity-75">General Secretary, Association for Social Justice and Research</p>
+          </div>
+        </div>
+      </section> */}
+
       {/* Legal Status & Compliance */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
@@ -575,18 +577,19 @@ const About = () => {
                       <p className="text-gray-600 text-sm">Registered on August 3, 1994 at New Delhi</p>
                     </div>
                   </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
-                    <div>
-                      <span className="font-semibold">FCRA Registration</span>
-                      <p className="text-gray-600 text-sm">Foreign Contribution Regulation Act, 1976</p>
-                    </div>
-                  </li>
+               
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
                     <div>
                       <span className="font-semibold">Income Tax Exemption</span>
                       <p className="text-gray-600 text-sm">80G & 12A under Income Tax Act, 1961</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
+                    <div>
+                      <span className="font-semibold">NITI Aayog Registration</span>
+                      <p className="text-gray-600 text-sm">Unique ID for NGO Darpan portal</p>
                     </div>
                   </li>
                 </ul>
@@ -618,8 +621,7 @@ const About = () => {
             <div className="mt-8 bg-orange-50 p-6 rounded-xl text-center">
               <p className="text-gray-700">
                 <strong>Tax Exemption Note:</strong> All donations to Association for Social Justice and Research are eligible 
-                for 80G tax benefits under the Income Tax Act, 1961. Our FCRA registration enables us to receive foreign 
-                contributions for our social development programs.
+                for 80G tax benefits under the Income Tax Act, 1961.
               </p>
             </div>
           </div>
