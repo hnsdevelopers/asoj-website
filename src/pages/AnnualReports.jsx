@@ -21,7 +21,7 @@ const AnnualReports = () => {
       year: "2025-26",
       title: "Annual Report 2025-26",
       description: "Comprehensive report highlighting Mahila Panchayat Programme supported by Azim Premji Foundation, Digital Learning Centre achievements, child protection initiatives, and women empowerment success stories.",
-      pdfUrl: "https://example.com/annual-reports/ASOJ-Annual-Report-2025-26.pdf", // Replace with actual URL
+      pdfUrl: "/assets/Annual Report 2056-26.pdf", // Replace with actual URL
       thumbnail: "/images/16-768x432.jpg",
       size: "2.5 MB",
       pages: 25,
