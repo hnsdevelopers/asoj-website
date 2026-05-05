@@ -21,7 +21,7 @@ const AnnualReports = () => {
       year: "2025-26",
       title: "Annual Report 2025-26",
       description: "Comprehensive report highlighting Mahila Panchayat Programme supported by Azim Premji Foundation, Digital Learning Centre achievements, child protection initiatives, and women empowerment success stories.",
-      pdfUrl: "/assets/Annual Report 2056-26.pdf", // Replace with actual URL
+      pdfUrl: "/assets/Annual Report 2025-26.pdf",
       thumbnail: "/images/16-768x432.jpg",
       size: "2.5 MB",
       pages: 25,
@@ -39,7 +39,7 @@ const AnnualReports = () => {
       year: "2024-25",
       title: "Annual Report 2024-25",
       description: "Annual report covering Mahila Panchayat Programme supported by Delhi Commission for Women, health camps, school enrollment drives, and community awareness initiatives.",
-      pdfUrl: "https://example.com/annual-reports/ASOJ-Annual-Report-2024-25.pdf", // Replace with actual URL
+      pdfUrl: "/assets/Annual Report 2024-25.pdf",
       thumbnail: "/images/health-and-wash.jpg",
       size: "2.3 MB",
       pages: 20,
@@ -57,7 +57,7 @@ const AnnualReports = () => {
       year: "2022-23",
       title: "Annual Report 2022-23",
       description: "Annual report detailing Child Activity Centres operations, digital learning initiatives, COVID-19 relief work, and community mobilization efforts.",
-      pdfUrl: "https://example.com/annual-reports/ASOJ-Annual-Report-2022-23.pdf", // Replace with actual URL
+      pdfUrl: "/assets/Annual Report 2022-23.pdf",
       thumbnail: "/images/WhatsApp-Image-2024-03-19-at-13.31.34.jpg",
       size: "2.1 MB",
       pages: 18,
@@ -75,7 +75,7 @@ const AnnualReports = () => {
       year: "2021-22",
       title: "Annual Report 2021-22",
       description: "Annual report covering COVID-19 response, vaccination awareness campaigns, school reopening support, and community health initiatives during the pandemic.",
-      pdfUrl: "https://example.com/annual-reports/ASOJ-Annual-Report-2021-22.pdf", // Replace with actual URL
+      pdfUrl: "/assets/Annual Report 2021-22.pdf",
       thumbnail: "/images/6.jpg",
       size: "1.9 MB",
       pages: 19,
@@ -98,15 +98,18 @@ const AnnualReports = () => {
   ]
 
   const handleDownload = (pdfUrl, title) => {
-    // For actual implementation, this would trigger download
-    // window.open(pdfUrl, '_blank');
-    alert(`Downloading ${title}. The PDF will open in a new tab.`);
+    // Create a temporary anchor element for download
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = title.replace(/\s/g, '_') + '.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }
 
   const handleView = (pdfUrl, title) => {
-    // For actual implementation, this would open PDF viewer
-    // window.open(pdfUrl, '_blank');
-    alert(`Opening ${title}. The PDF will open in a new tab.`);
+    // Open PDF in new tab
+    window.open(pdfUrl, '_blank');
   }
 
   return (
@@ -147,7 +150,7 @@ const AnnualReports = () => {
             {statsSummary.map((stat, index) => {
               const Icon = stat.icon
               return (
-                <div key={index} className="bg-white p-6 rounded-xl shadow-lg text-center border border-gray-100">
+                <div key={index} className="bg-white p-6 rounded-xl shadow-lg text-center border border-gray-100 hover:shadow-xl transition">
                   <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-3">
                     <Icon className="w-6 h-6 text-orange-500" />
                   </div>
@@ -173,7 +176,7 @@ const AnnualReports = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {reports.map((report) => (
-              <div key={report.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300">
+              <div key={report.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
                 <div className="relative h-48 overflow-hidden">
                   <img
                     src={report.thumbnail}
@@ -212,7 +215,9 @@ const AnnualReports = () => {
                         </li>
                       ))}
                       {report.highlights.length > 3 && (
-                        <li className="text-orange-500 text-xs font-medium">+ {report.highlights.length - 3} more highlights</li>
+                        <li className="text-orange-500 text-xs font-medium mt-1">
+                          + {report.highlights.length - 3} more highlights
+                        </li>
                       )}
                     </ul>
                   </div>
