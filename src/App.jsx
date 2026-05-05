@@ -20,7 +20,8 @@ import HealthWashDetail from './pages/projects/HealthWashDetail'
 import ChildProtectionDetail from './pages/projects/ChildProtectionDetail'
 import WomenEmpowermentDetail from './pages/projects/WomenEmpowermentDetail'
 import AnnualReports from './pages/AnnualReports'
-
+import Blog from './pages/Blog'
+import BlogPost from './pages/BlogPost'
 
 /* 🔥 Scroll to Top Component (ONLY ADDITION) */
 const ScrollToTop = () => {
@@ -272,6 +273,27 @@ function App() {
             keywords="annual reports, NGO annual report, ASOJ reports, social justice reports, financial transparency, impact reports"
         />
         <AnnualReports />
+    </>
+} />
+            <Route path="/blog" element={
+    <>
+        <SEO 
+            title="Blog" 
+            description="Read inspiring stories, updates, and impact reports from our work in women empowerment, child rights, education, and community development."
+            keywords="NGO blog, social justice stories, women empowerment blog, child rights updates, community impact stories"
+        />
+        <Blog />
+    </>
+} />
+
+<Route path="/blog/:slug" element={
+    <>
+        <SEO 
+            title="Blog Post" 
+            description="Read detailed stories about our impact, success stories, and community initiatives."
+            keywords="ASOJ blog, impact story, success story, community development"
+        />
+        <BlogPost />
     </>
 } />
           </Routes>
