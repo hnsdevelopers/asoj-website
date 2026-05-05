@@ -15,6 +15,10 @@ import DonateNow from './pages/DonateNow'
 import EducationGallery from './pages/EducationGallery'
 import MahilaPanchayatProgrammeDetail from './pages/projects/MahilaPanchayatProgrammeDetail'
 import ChildActivityCentresDetail from './pages/projects/ChildActivityCentresDetail'
+import DigitalLearningCentreDetail from './pages/projects/DigitalLearningCentreDetail'
+import HealthWashDetail from './pages/projects/HealthWashDetail'
+import ChildProtectionDetail from './pages/projects/ChildProtectionDetail'
+import WomenEmpowermentDetail from './pages/projects/WomenEmpowermentDetail'
 
 /* 🔥 Scroll to Top Component (ONLY ADDITION) */
 const ScrollToTop = () => {
@@ -193,7 +197,7 @@ function App() {
                 <EducationGallery />
               </>
             } />
-            <Route path="/our-project/mahila-panchayat-programme" element={
+<Route path="/our-project/mahila-panchayat-programme" element={
     <>
         <SEO 
             title="Mahila Panchayat Programme" 
@@ -212,6 +216,50 @@ function App() {
             keywords="child activity centre, remedial education, out of school children, back to school campaign, education for marginalized children"
         />
         <ChildActivityCentresDetail />
+    </>
+} />
+
+<Route path="/our-project/digital-learning-centre" element={
+    <>
+        <SEO 
+            title="Digital Learning Centre" 
+            description="NIIT Foundation affiliated computer education program for youth. CCAB certified course providing digital literacy and career readiness to 55 students annually."
+            keywords="digital learning centre, computer education, NIIT foundation, CCAB course, digital literacy for youth"
+        />
+        <DigitalLearningCentreDetail />
+    </>
+} />
+
+<Route path="/our-project/health-wash" element={
+    <>
+        <SEO 
+            title="Health & WASH Programme" 
+            description="Comprehensive health initiatives including health camps, vaccination drives, and WASH awareness. 4,050+ beneficiaries served with health cards and medical support."
+            keywords="health camp, WASH programme, vaccination drive, health awareness, community health, hygiene promotion"
+        />
+        <HealthWashDetail />
+    </>
+} />
+
+<Route path="/our-project/child-protection" element={
+    <>
+        <SEO 
+            title="Child Protection Programme" 
+            description="Protecting children from abuse, child labor, and child marriage. POSCO awareness, good touch-bad touch sessions, and legal support for survivors."
+            keywords="child protection, POSCO awareness, good touch bad touch, child sexual abuse, child labor prevention, child marriage"
+        />
+        <ChildProtectionDetail />
+    </>
+} />
+
+<Route path="/our-project/women-empowerment" element={
+    <>
+        <SEO 
+            title="Women Empowerment Programme" 
+            description="Holistic women empowerment through life skills, gender sensitization, social security schemes, and economic independence programs. Sukanya Yojana, Ladli Yojana, and bank account support."
+            keywords="women empowerment, gender sensitization, Sukanya Yojana, Ladli Yojana, Ujjwala Yojana, widow pension, self help groups"
+        />
+        <WomenEmpowermentDetail />
     </>
 } />
           </Routes>
