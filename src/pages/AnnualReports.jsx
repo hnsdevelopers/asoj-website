@@ -262,7 +262,7 @@ const AnnualReports = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Financial Transparency</h2>
             <div className="w-20 h-1 bg-orange-500 mx-auto"></div>
             <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-              We maintain complete financial transparency as required under FCRA and Income Tax Act, 1961
+              We maintain complete financial transparency as required under Income Tax Act, 1961
             </p>
           </div>
 
@@ -297,10 +297,7 @@ const AnnualReports = () => {
                       <ChevronRight className="w-4 h-4 text-orange-500 mt-0.5" />
                       <span className="text-gray-600">Registered under Societies Registration Act, 1860</span>
                     </li>
-                    <li className="flex items-start gap-2">
-                      <ChevronRight className="w-4 h-4 text-orange-500 mt-0.5" />
-                      <span className="text-gray-600">FCRA Registered since 1994</span>
-                    </li>
+         
                     <li className="flex items-start gap-2">
                       <ChevronRight className="w-4 h-4 text-orange-500 mt-0.5" />
                       <span className="text-gray-600">80G & 12A Income Tax Exemption</span>
@@ -315,7 +312,7 @@ const AnnualReports = () => {
 
               <div className="mt-6 pt-6 border-t">
                 <p className="text-gray-500 text-xs text-center">
-                  All our annual reports are audited and filed with relevant government authorities as per FCRA and Income Tax regulations.
+                  All our annual reports are audited and filed with relevant government authorities as per Income Tax regulations.
                   For detailed financial statements, please refer to the complete annual reports above.
                 </p>
               </div>
