@@ -1,0 +1,100 @@
+{
+  "blogs": [
+    {
+      "slug": "mahila-panchayat-empowering-women-through-community-justice",
+      "title": "Mahila Panchayat: Empowering Women Through Community Justice",
+      "author": "Dr. Kamala Upadhayay",
+      "authorImage": "/images/kamla_upadhyay.png",
+      "publishedAt": "2025-03-15T10:30:00Z",
+      "category": "Women Empowerment",
+      "excerpt": "Since 2013, our Mahila Panchayat programme has been providing alternative justice delivery system for women in distress at their doorstep.",
+      "featuredImage": "/images/disaster_management.jpg",
+      "readTime": 5,
+      "content": "<p>The Mahila Panchayat Programme initiated in August 2013 at Ghazipur Dairy Farm area has become a beacon of hope for women facing domestic violence. Supported by Azim Premji Foundation, this community-based initiative has registered over 250 domestic violence cases, successfully resolving 102 through counseling and mediation.</p><p>What makes Mahila Panchayat unique is its doorstep delivery of justice. Women don't need to travel to courts or police stations; they can seek help within their own community. The panchayat consists of trained women leaders who conduct hearings, provide legal awareness, and help victims access government schemes.</p><p>In 2024-25 alone, we conducted 48 nukad meetings reaching 2,430 women, organized 47 panchayat meetings, and contacted 22,891 households through door-to-door outreach. The impact has been transformative - women who once suffered silently are now raising their voices and claiming their rights.</p>"
+    },
+    {
+      "slug": "digital-learning-centre-bridging-the-digital-divide",
+      "title": "Digital Learning Centre: Bridging the Digital Divide for Marginalized Youth",
+      "author": "ASOJ Team",
+      "authorImage": "/images/logo-ASOJ-1.jpg",
+      "publishedAt": "2025-02-20T14:15:00Z",
+      "category": "Education",
+      "excerpt": "Our NIIT Foundation affiliated Digital Learning Centre is transforming lives of 55 youth annually through computer education.",
+      "featuredImage": "/images/16-768x432.jpg",
+      "readTime": 4,
+      "content": "<p>In an increasingly digital world, lack of computer literacy can be a major barrier to employment and economic independence. Recognizing this, ASoJ established the Digital Learning Centre (DLC) affiliated with NIIT Foundation, offering CCAB certified courses to youth from marginalized communities.</p><p>The programme has seen remarkable success stories. Shashi, a 16-year-old who had never touched a computer, now confidently creates documents and helps her peers. Riya completed her DLC course and is now pursuing COPA (Computer Operator and Programming Assistant) course in Noida. Akriti, after completing her computer training, is now pursuing Web Designing.</p><p>With 55 students enrolled annually and 100% course completion rate, the DLC is truly bridging the digital divide and creating pathways to better futures.</p>"
+    },
+    {
+      "slug": "child-activity-centres-transforming-education-for-marginalized-children",
+      "title": "Child Activity Centres: Transforming Education for Marginalized Children",
+      "author": "ASOJ Team",
+      "authorImage": "/images/logo-ASOJ-1.jpg",
+      "publishedAt": "2025-01-10T09:45:00Z",
+      "category": "Education",
+      "excerpt": "Our two Child Activity Centres in Ghazipur and Gharoli are providing remedial education to 160+ children from marginalized communities.",
+      "featuredImage": "/images/WhatsApp-Image-2024-03-19-at-13.31.34.jpg",
+      "readTime": 6,
+      "content": "<p>Education is the most powerful tool to break the cycle of poverty. Our Child Activity Centres (CAC) in Ghazipur slum and Gharoli are providing quality remedial education to 160+ children from families who cannot afford private tutoring.</p><p>The impact speaks for itself - 4 children secured first and second positions in their respective classes, school attendance has increased significantly, and 143 out-of-school children have been successfully enrolled in mainstream schools through our advocacy efforts.</p><p>Sana and Sabra, two sisters who never attended school due to extreme poverty, now recognize Hindi letters and can recite multiplication tables from 2 to 10 - all within just two months of joining our CAC. Stories like these remind us why our work matters.</p>"
+    },
+    {
+      "slug": "breaking-the-silence-chuppi-todo-campaign-against-domestic-violence",
+      "title": "Breaking the Silence: Chuppi Todo Campaign Against Domestic Violence",
+      "author": "Mahila Panchayat Team",
+      "authorImage": "/images/kamla_upadhyay.png",
+      "publishedAt": "2025-03-01T11:00:00Z",
+      "category": "Women Empowerment",
+      "excerpt": "Our four-day 'Break the Silence Against Domestic Violence' campaign reached 2,660 community members through rallies, street plays, and awareness activities.",
+      "featuredImage": "/images/6.jpg",
+      "readTime": 4,
+      "content": "<p>Silence is the biggest enemy of justice. Our 'Chuppi Todo' (Break the Silence) campaign aimed to encourage women to speak up against domestic violence and gender discrimination.</p><p>The campaign included 2 community rallies with 53 women participants, street plays at Shyamal Chowk, slogan writing exercises, and self-identity activities. A stakeholders meeting brought together counselors from One Stop Centre Kalyanpuri, school principals, and representatives from MLA and Councilor offices.</p><p>Through this campaign, 2,660 community members were reached and made aware about domestic violence laws, legal aid services, and the importance of speaking up. Women now know that remaining silent is never the solution.</p>"
+    },
+    {
+      "slug": "health-camps-bringing-healthcare-to-doorsteps",
+      "title": "Health Camps: Bringing Healthcare to Doorsteps of Underserved Communities",
+      "author": "ASOJ Team",
+      "authorImage": "/images/logo-ASOJ-1.jpg",
+      "publishedAt": "2024-12-05T08:30:00Z",
+      "category": "Health",
+      "excerpt": "Over 4,050 community members have benefited from our health camps, receiving free medical checkups and medicines.",
+      "featuredImage": "/images/health-and-wash.jpg",
+      "readTime": 3,
+      "content": "<p>Access to quality healthcare remains a challenge for marginalized communities. Our health camps bridge this gap by bringing medical services directly to the doorsteps of those who need them most.</p><p>Women and children from Ghazipur slum and Sapera colony have benefited immensely from these camps. 4,050+ people have received free checkups and medicines. Additionally, we've organized vaccination camps achieving 90% adult vaccination rate in our target areas.</p><p>Beyond curative care, we focus on preventive health education - menstrual hygiene management, nutrition awareness, and WASH protocols. Monthly sanitary pad distribution by PINKISHE Foundation ensures adolescent girls don't miss school due to lack of hygiene products.</p>"
+    },
+    {
+      "slug": "out-of-school-children-back-to-school-campaign",
+      "title": "Out of School Children: Our Back to School Campaign Success",
+      "author": "Education Team",
+      "authorImage": "/images/logo-ASOJ-1.jpg",
+      "publishedAt": "2024-11-18T13:20:00Z",
+      "category": "Child Rights",
+      "excerpt": "Through persistent advocacy and community mobilization, we have successfully enrolled 143 out-of-school children into mainstream education.",
+      "featuredImage": "/images/422564913_915544820062162_6992698709254487044_n.jpg",
+      "readTime": 5,
+      "content": "<p>When schools closed during the pandemic, many children from marginalized families never returned. The 'Back to School' campaign was launched with a single mission - bring every child back to education.</p><p>In 2024-25, we enrolled 65 out-of-school children; in 2025-26, another 40 children were enrolled. When 32 children were denied admission in MCD schools due to lack of documents, we advocated with the Director Education Department and DCPCR, resulting in 30 children being admitted - including 11 without any documents.</p><p>Children who were once rag pickers, domestic workers, or simply never attended school are now sitting in classrooms, dreaming of brighter futures. Every child deserves this chance.</p>"
+    },
+    {
+      "slug": "mental-health-awareness-workshops-for-children",
+      "title": "Mental Health Awareness: Helping Children Understand and Manage Emotions",
+      "author": "Child Protection Team",
+      "authorImage": "/images/logo-ASOJ-1.jpg",
+      "publishedAt": "2024-10-22T10:00:00Z",
+      "category": "Child Protection",
+      "excerpt": "18 mental health sessions with 185 children have helped them identify anger triggers and develop healthy coping mechanisms.",
+      "featuredImage": "/images/disaster_management.jpg",
+      "readTime": 3,
+      "content": "<p>Mental health is often neglected in discussions about child welfare. Yet, children from stressful environments face unique emotional challenges. Our mental health workshops address this gap.</p><p>Through 18 sessions with 185 children (86 boys, 99 girls), we've taught children to identify signs of anger, understand the 'stairway of anger', and develop strategies to calm down when upset. Children now report being able to understand their feelings when angry and try to control their reactions.</p><p>This emotional intelligence will serve them well throughout their lives, helping them build healthier relationships and cope with challenges effectively.</p>"
+    },
+    {
+      "slug": "gender-sensitization-workshops-changing-mindsets",
+      "title": "Gender Sensitization Workshops: Changing Mindsets at the Grassroots",
+      "author": "Dr. Kamala Upadhayay",
+      "authorImage": "/images/kamla_upadhyay.png",
+      "publishedAt": "2024-09-30T14:45:00Z",
+      "category": "Women Empowerment",
+      "excerpt": "Two gender sensitization workshops with 80 women participants challenged patriarchal norms and built confidence to speak against discrimination.",
+      "featuredImage": "/images/women_empowerment.jpg",
+      "readTime": 4,
+      "content": "<p>Gender discrimination is deeply embedded in social norms and cultural practices. Simply providing legal information isn't enough - we must change mindsets.</p><p>Our gender sensitization workshops brought together 40 women in each session to discuss how patriarchal structures influence gender discrimination. Women shared experiences of being conditioned to accept unequal roles as 'duty.'</p><p>Through poster making, slogan writing, and nukkad plays, participants gained confidence to recognize discrimination and raise their voices against it. The result? Women are now increasingly approaching Mahila Panchayat to register complaints when they experience violence or disrespect at home.</p>"
+    }
+  ]
+}
