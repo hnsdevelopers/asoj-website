@@ -84,8 +84,9 @@ const Header = () => {
       icon: BookOpen,
       items: [
         { path: '/gallery', label: 'Gallery', icon: Image, description: 'Photos & events' },
-        { path: '/contact-us', label: 'Contact Us', icon: Mail, description: 'Get in touch' },
         { path: '/blog', label: 'Blog', icon: Newspaper, description: 'Read articles' },
+        { path: '/annual-reports', label: 'Annual Report', icon: FileChartLine, description: 'See our activities' },
+        { path: '/contact-us', label: 'Contact Us', icon: Mail, description: 'Get in touch' },
       ]
     }
   }
