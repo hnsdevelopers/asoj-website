@@ -19,6 +19,8 @@ import DigitalLearningCentreDetail from './pages/projects/DigitalLearningCentreD
 import HealthWashDetail from './pages/projects/HealthWashDetail'
 import ChildProtectionDetail from './pages/projects/ChildProtectionDetail'
 import WomenEmpowermentDetail from './pages/projects/WomenEmpowermentDetail'
+import AnnualReports from './pages/AnnualReports'
+
 
 /* 🔥 Scroll to Top Component (ONLY ADDITION) */
 const ScrollToTop = () => {
@@ -260,6 +262,16 @@ function App() {
             keywords="women empowerment, gender sensitization, Sukanya Yojana, Ladli Yojana, Ujjwala Yojana, widow pension, self help groups"
         />
         <WomenEmpowermentDetail />
+    </>
+} />
+            <Route path="/annual-reports" element={
+    <>
+        <SEO 
+            title="Annual Reports" 
+            description="Access annual reports of Association for Social Justice and Research. Detailed documentation of our programs, achievements, and financial transparency since 1994."
+            keywords="annual reports, NGO annual report, ASOJ reports, social justice reports, financial transparency, impact reports"
+        />
+        <AnnualReports />
     </>
 } />
           </Routes>
