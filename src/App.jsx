@@ -13,6 +13,8 @@ import Gallery from './pages/Gallery'
 import ContactUs from './pages/ContactUs'
 import DonateNow from './pages/DonateNow'
 import EducationGallery from './pages/EducationGallery'
+import MahilaPanchayatProgrammeDetail from './pages/projects/MahilaPanchayatProgrammeDetail'
+import ChildActivityCentresDetail from './pages/projects/ChildActivityCentresDetail'
 
 /* 🔥 Scroll to Top Component (ONLY ADDITION) */
 const ScrollToTop = () => {
@@ -191,6 +193,27 @@ function App() {
                 <EducationGallery />
               </>
             } />
+            <Route path="/our-project/mahila-panchayat-programme" element={
+    <>
+        <SEO 
+            title="Mahila Panchayat Programme" 
+            description="Community-based alternative justice delivery system for women in Ghazipur and Gharoli areas. Since 2013, providing legal awareness, counseling, and dispute resolution for domestic violence cases."
+            keywords="Mahila Panchayat, women empowerment, domestic violence help, legal aid for women, Delhi Commission for Women, Azim Premji Foundation"
+        />
+        <MahilaPanchayatProgrammeDetail />
+    </>
+} />
+
+<Route path="/our-project/child-activity-centres" element={
+    <>
+        <SEO 
+            title="Child Activity Centres (CAC)" 
+            description="Remedial education centers for marginalized children in Ghazipur and Gharoli. Providing quality learning support to 160+ children from 2nd to 10th standard."
+            keywords="child activity centre, remedial education, out of school children, back to school campaign, education for marginalized children"
+        />
+        <ChildActivityCentresDetail />
+    </>
+} />
           </Routes>
         </main>
         <Footer />
