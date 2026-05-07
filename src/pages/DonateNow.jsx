@@ -40,7 +40,7 @@ const DonateNow = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Left Column - Donation Form */}
-            <div style="display: none;">
+            <div style={{display: 'none'}}>
               <div className="bg-white rounded-xl shadow-lg p-8">
                 <div className="text-center mb-8">
                   <Heart className="w-16 h-16 text-orange-500 mx-auto mb-4 fill-orange-200" />
