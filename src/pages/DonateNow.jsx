@@ -40,7 +40,7 @@ const DonateNow = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Left Column - Donation Form */}
-            <div>
+            <div style="display: none;">
               <div className="bg-white rounded-xl shadow-lg p-8">
                 <div className="text-center mb-8">
                   <Heart className="w-16 h-16 text-orange-500 mx-auto mb-4 fill-orange-200" />
@@ -203,10 +203,10 @@ const DonateNow = () => {
                 <h3 className="text-xl font-bold text-gray-800 mb-4">Bank Transfer Details</h3>
                 <div className="space-y-3 text-gray-600">
                   <p><strong>Account Name:</strong> Association for Social Justice and Research</p>
-                  <p><strong>Bank:</strong> [Bank Name]</p>
-                  <p><strong>Account Number:</strong> [Account Number]</p>
-                  <p><strong>IFSC Code:</strong> [IFSC Code]</p>
-                  <p><strong>Account Type:</strong> Savings/Current</p>
+                  <p><strong>Bank:</strong> HDFC Bank</p>
+                  <p><strong>Account Number:</strong> 50100031027538</p>
+                  <p><strong>IFSC Code:</strong> HDFC0000481</p>
+                  <p><strong>Account Type:</strong> Current</p>
                 </div>
                 <div className="mt-6 pt-6 border-t">
                   <h3 className="text-xl font-bold text-gray-800 mb-4">For Cheque/DD</h3>
