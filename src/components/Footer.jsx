@@ -95,7 +95,7 @@ const Footer = () => {
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-orange-400 mt-0.5 flex-shrink-0" />
                 <span className="text-gray-400">
-                  62 B Law Apartment Karkarduma Delhi 110092
+                  B-12-A, Gali No. 2, East Nathu Colony, Delhi-110096
                 </span>
               </div>
               <div className="flex items-center gap-2">
