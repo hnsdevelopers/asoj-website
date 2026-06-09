@@ -53,7 +53,7 @@ const Home = () => {
     },
     { 
       name: "Livelihood & Skill Development", 
-      image: "/images/16-768x432.jpg",
+      image: "https://iili.io/BLaUcua.md.jpg",
       color: "from-green-500 to-green-600",
       description: "Empowering communities through vocational training, skill development workshops, and sustainable livelihood programs."
     },
