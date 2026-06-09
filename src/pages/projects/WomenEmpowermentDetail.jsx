@@ -113,10 +113,7 @@ const WomenEmpowermentDetail = () => {
                   <h3 className="font-bold text-gray-800 text-lg">E-Shram Card & Labour Card</h3>
                   <p className="text-gray-600">Awareness created and linkages facilitated for unorganized sector workers</p>
                 </div>
-                <div className="bg-green-50 p-4 rounded-lg">
-                  <h3 className="font-bold text-gray-800 text-lg">Handicapped Pension</h3>
-                  <p className="text-gray-600">1 person received handicapped pension support</p>
-                </div>
+                
               </div>
             </div>
 
