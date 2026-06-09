@@ -15,9 +15,9 @@ const About = () => {
         <div className="absolute inset-0 flex items-center justify-center text-center text-white">
           <div className="max-w-4xl px-4">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">Association for Social Justice and Research</h1>
-            <p className="text-xl md:text-2xl mb-6">National Level Registered Society | Established 1994</p>
+            <p className="text-xl md:text-2xl mb-6">National Level Registered Society | Established 2009</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <span className="px-4 py-2 bg-orange-500/20 backdrop-blur-sm rounded-full text-sm">30+ Years of Service</span>
+              <span className="px-4 py-2 bg-orange-500/20 backdrop-blur-sm rounded-full text-sm">15+ Years of Service</span>
               <span className="px-4 py-2 bg-orange-500/20 backdrop-blur-sm rounded-full text-sm">80G & 12A Certified</span>
             </div>
           </div>
@@ -37,7 +37,7 @@ const About = () => {
               <p className="text-gray-700 leading-relaxed mb-6 text-lg">
                 <strong>Association for Social Justice and Research (ASoJ)</strong> is a National level registered society, 
                 formed by likeminded Activists and intellectuals dedicated to promoting social justice through research, 
-                advocacy, and community engagement. Since our establishment on <strong>August 3, 1994</strong>, we have been 
+                advocacy, and community engagement. Since our establishment on <strong>December 23, 2009</strong>, we have been 
                 working tirelessly to address systemic inequalities and injustices in society.
               </p>
               
@@ -102,11 +102,11 @@ const About = () => {
                       <div className="absolute left-0 md:left-[50%] md:right-0 w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center -ml-4 md:mr-4">
                         <Calendar className="w-4 h-4 text-white" />
                       </div>
-                      <h3 className="text-xl font-bold text-orange-600 mb-2">1994</h3>
+                      <h3 className="text-xl font-bold text-orange-600 mb-2">2009</h3>
                       <h4 className="text-lg font-bold text-gray-800 mb-2">Foundation of ASoJ</h4>
                       <p className="text-gray-600">
                         Association for Social Justice and Research was registered under the Societies Registration Act, 
-                        1860 on August 3, 1994 at New Delhi. Formed by a group of dedicated activists and intellectuals 
+                        1860 on December 23, 2009 at New Delhi. Formed by a group of dedicated activists and intellectuals 
                         committed to social justice.
                       </p>
                     </div>
@@ -337,7 +337,7 @@ const About = () => {
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold mb-2">30+</div>
               <p className="text-sm opacity-90">Years of Service</p>
-              <p className="text-xs opacity-75 mt-1">Since 1994</p>
+              <p className="text-xs opacity-75 mt-1">Since 2009</p>
             </div>
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold mb-2">50,000+</div>
@@ -574,7 +574,7 @@ const About = () => {
                     <CheckCircle className="w-5 h-5 text-green-500 mt-0.5" />
                     <div>
                       <span className="font-semibold">Societies Registration Act, 1860</span>
-                      <p className="text-gray-600 text-sm">Registered on August 3, 1994 at New Delhi</p>
+                      <p className="text-gray-600 text-sm">Registered on December 23, 2009 at New Delhi</p>
                     </div>
                   </li>
                
@@ -603,7 +603,7 @@ const About = () => {
                 <div className="space-y-4">
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Registered Office</h4>
-                    <p className="text-gray-600">62 B Law Apartment, Karkarduma, Delhi - 110092</p>
+                    <p className="text-gray-600">B-12-A, Gali No. 2, East Nathu Colony, Delhi-110093</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Postal/Communication Address</h4>
