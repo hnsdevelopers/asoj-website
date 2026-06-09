@@ -8,7 +8,7 @@ const About = () => {
       <div className="relative h-[400px] md:h-[500px] overflow-hidden">
         <img
           src="/images/6.jpg"
-          alt="Association for Social Justice and Research - NGO working for women empowerment and child rights in Delhi since 1994"
+          alt="Association for Social Justice and Research - NGO working for women empowerment and child rights in Delhi since 2009"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/70"></div>
@@ -330,12 +330,12 @@ const About = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Impact in Numbers</h2>
             <div className="w-20 h-1 bg-white mx-auto"></div>
-            <p className="text-white/90 mt-4 max-w-2xl mx-auto">Over 30 years of dedicated service, creating measurable change</p>
+            <p className="text-white/90 mt-4 max-w-2xl mx-auto">Over 15 years of dedicated service, creating measurable change</p>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold mb-2">30+</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2">15+</div>
               <p className="text-sm opacity-90">Years of Service</p>
               <p className="text-xs opacity-75 mt-1">Since 2009</p>
             </div>
