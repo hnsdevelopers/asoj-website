@@ -7,7 +7,7 @@ const OurProject = () => {
       id: "mahila-panchayat",
       name: "Mahila Panchayat Programme", 
       slug: "mahila-panchayat-programme",
-      image: "/images/disaster_management.jpg",
+      image: "https://iili.io/BLaUw9n.jpg",
       description: "Community-based alternative justice delivery system for women, providing legal awareness, counseling, and dispute resolution at the grassroots level.",
       shortDesc: "Empowering women through collective justice",
       icon: Users,
