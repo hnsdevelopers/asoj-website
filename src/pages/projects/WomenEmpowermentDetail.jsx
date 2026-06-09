@@ -60,8 +60,16 @@ const WomenEmpowermentDetail = () => {
                 <p className="text-sm text-gray-600">Ujjwala Beneficiaries</p>
               </div>
               <div className="bg-orange-50 p-4 rounded-lg text-center">
-                <div className="text-2xl font-bold text-orange-500">10</div>
+                <div className="text-2xl font-bold text-orange-500">139</div>
                 <p className="text-sm text-gray-600">Widow Pensions</p>
+              </div>
+              <div className="bg-orange-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-orange-500">224</div>
+                <p className="text-sm text-gray-600">Old Age Pensions</p>
+              </div>
+              <div className="bg-orange-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-orange-500">49</div>
+                <p className="text-sm text-gray-600">Disabled Pensions</p>
               </div>
             </div>
 
@@ -91,7 +99,15 @@ const WomenEmpowermentDetail = () => {
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
                   <h3 className="font-bold text-gray-800 text-lg">Widow Pension Scheme</h3>
-                  <p className="text-gray-600">10 widows now receive ₹2,500 per month pension</p>
+                  <p className="text-gray-600">139 widows now receive ₹2,500 per month pension</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h3 className="font-bold text-gray-800 text-lg">Old Age Pension Scheme</h3>
+                  <p className="text-gray-600">224 senior citizens now receive ₹2,500 per month pension</p>
+                </div>
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h3 className="font-bold text-gray-800 text-lg">Disabled Pension Scheme</h3>
+                  <p className="text-gray-600">49 Handicapped now receive ₹2,500 per month pension</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
                   <h3 className="font-bold text-gray-800 text-lg">E-Shram Card & Labour Card</h3>
@@ -253,7 +269,25 @@ const WomenEmpowermentDetail = () => {
                   <h3 className="font-bold text-gray-800">Widow Pension Success</h3>
                   <p className="text-gray-600 mt-1 text-sm">
                     Through door-to-door awareness, many widows learned about pension schemes. 
-                    <strong>10 women</strong> now receive ₹2,500 per month pension, providing essential 
+                    <strong>139 women</strong> now receive ₹2,500 per month pension, providing essential 
+                    financial stability and improved confidence.
+                  </p>
+                </div>
+
+                <div className="bg-white p-4 rounded-lg shadow-md">
+                  <h3 className="font-bold text-gray-800">Old Age Pension Success</h3>
+                  <p className="text-gray-600 mt-1 text-sm">
+                    Through door-to-door awareness, many senior citizens learned about pension schemes. 
+                    <strong>224 senior citizens</strong> now receive ₹2,000 to ₹2,500 per month pension, providing essential 
+                    financial stability and improved confidence.
+                  </p>
+                </div>
+
+                <div className="bg-white p-4 rounded-lg shadow-md">
+                  <h3 className="font-bold text-gray-800">Disabled Pension Success</h3>
+                  <p className="text-gray-600 mt-1 text-sm">
+                    Through door-to-door awareness, many handicapped learned about pension schemes. 
+                    <strong>49 handicapped persons</strong> now receive ₹2,500 per month pension, providing essential 
                     financial stability and improved confidence.
                   </p>
                 </div>
@@ -280,7 +314,9 @@ const WomenEmpowermentDetail = () => {
                 <p>✓ 45 bank accounts opened</p>
                 <p>✓ 40 girls in Sukanya Yojana</p>
                 <p>✓ 30 Ujjwala beneficiaries</p>
-                <p>✓ 10 widow pensions secured</p>
+                <p>✓ 139 widow pensions secured</p>
+                <p>✓ 224 old age pensions secured</p>
+                <p>✓ 49 disabled pensions secured</p>
                 <p>✓ 300 Abha health cards</p>
                 <p>✓ 270 Aadhaar/PAN cards</p>
                 <p>✓ 2 gender sensitization workshops</p>
