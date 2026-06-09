@@ -247,7 +247,7 @@ const Home = () => {
                   <MapPin className="w-5 h-5 text-orange-500 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">Registered Office address</h4>
-                    <p className="text-gray-600 text-sm">62 B Law Apartment Karkarduma Delhi 110092</p>
+                    <p className="text-gray-600 text-sm">B-2-A, Gali No. 2, East Nathu Colony, Delhi-110093</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-2">
