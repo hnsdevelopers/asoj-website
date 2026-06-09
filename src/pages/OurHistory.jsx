@@ -7,14 +7,14 @@ const OurHistory = () => {
       <div className="relative h-[300px] md:h-[400px] overflow-hidden">
         <img
           src="/images/6.jpg"
-          alt="Our History - Association for Social Justice and Research since 1994"
+          alt="Our History - Association for Social Justice and Research since 2009"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="absolute inset-0 flex items-center justify-center text-center text-white">
           <div className="max-w-3xl px-4">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Our History</h1>
-            <p className="text-lg md:text-xl">Over 30 Years of Service & Impact</p>
+            <p className="text-lg md:text-xl">Over 15 Years of Service & Impact</p>
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@ const OurHistory = () => {
               </div>
               <p className="text-gray-700 leading-relaxed">
                 Association for Social Justice and Research (ASoJ) was registered under the Societies Registration Act, 1860 
-                on <strong>August 3, 1994</strong> at New Delhi. Formed by a group of dedicated activists and intellectuals, 
+                on <strong>December 23, 2009</strong> at New Delhi. Formed by a group of dedicated activists and intellectuals, 
                 the organization was established with a vision to create an equitable society where children, women, and 
                 marginalized communities can live with self-esteem and dignity.
               </p>
