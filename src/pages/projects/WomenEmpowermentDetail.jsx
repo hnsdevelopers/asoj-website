@@ -103,7 +103,7 @@ const WomenEmpowermentDetail = () => {
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
                   <h3 className="font-bold text-gray-800 text-lg">Old Age Pension Scheme</h3>
-                  <p className="text-gray-600">224 senior citizens now receive ₹2,500 per month pension</p>
+                  <p className="text-gray-600">224 senior citizens now receive ₹2,000-₹2,500 per month pension</p>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
                   <h3 className="font-bold text-gray-800 text-lg">Disabled Pension Scheme</h3>
