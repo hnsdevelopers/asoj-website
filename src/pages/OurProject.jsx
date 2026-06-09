@@ -23,7 +23,7 @@ const OurProject = () => {
       id: "education",
       name: "Child Activity Centres (CAC)", 
       slug: "child-activity-centres",
-      image: "/images/WhatsApp-Image-2024-03-19-at-13.31.34.jpg",
+      image: "https://iili.io/BLaUlwJ.jpg",
       description: "Remedial education centers providing quality learning support to children from marginalized communities, helping them succeed in formal schooling.",
       shortDesc: "Quality education for every child",
       icon: GraduationCap,
