@@ -7,7 +7,7 @@ const WomenEmpowermentDetail = () => {
       {/* Hero Section */}
       <div className="relative h-[350px] md:h-[450px] overflow-hidden">
         <img
-          src="/images/women_empowerment.jpg"
+          src="https://iili.io/BLaUw9n.md.jpg"
           alt="Women Empowerment Programme - Building self-reliant women"
           className="w-full h-full object-cover"
         />
