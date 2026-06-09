@@ -6,7 +6,7 @@ const MahilaPanchayatProgramme = () => {
       {/* Hero Section */}
       <div className="relative h-[300px] md:h-[400px] overflow-hidden">
         <img
-          src="/images/disaster_management.jpg"
+          src="https://iili.io/BLaUw9n.jpg"
           alt="Mahila Panchayat Programme"
           className="w-full h-full object-cover"
         />
