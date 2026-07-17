@@ -54,6 +54,24 @@ const AnnualReports = () => {
     },
     {
       id: 3,
+      year: "2023-24",
+      title: "Annual Report 2024-25",
+      description: "Annual report covering Mahila Panchayat Programme supported by Delhi Commission for Women, health camps, school enrollment drives, and community awareness initiatives.",
+      pdfUrl: "/assets/Annual Report 2023-24.pdf",
+      thumbnail: "/images/health-and-wash.jpg",
+      size: "2.3 MB",
+      pages: 20,
+      highlights: [
+        "48 nukad meetings with 2,430 women participants",
+        "4,050 people benefited from health camps",
+        "65 out-of-school children enrolled in school",
+        "270 people got Aadhaar/PAN cards",
+        "47 Mahila Panchayat meetings organized"
+      ],
+      programs: ["Health & WASH", "School Enrollment", "Mahila Panchayat", "Document Support"]
+    },
+    {
+      id: 4,
       year: "2022-23",
       title: "Annual Report 2022-23",
       description: "Annual report detailing Child Activity Centres operations, digital learning initiatives, COVID-19 relief work, and community mobilization efforts.",
@@ -71,7 +89,7 @@ const AnnualReports = () => {
       programs: ["Child Activity Centres", "Digital Learning", "School Enrollment", "Life Skills"]
     },
     {
-      id: 4,
+      id: 5,
       year: "2021-22",
       title: "Annual Report 2021-22",
       description: "Annual report covering COVID-19 response, vaccination awareness campaigns, school reopening support, and community health initiatives during the pandemic.",
