@@ -86,6 +86,7 @@ const Header = () => {
       items: [
         { path: '/gallery', label: 'Gallery', icon: Image, description: 'Photos & events' },
         { path: '/blog', label: 'Blog', icon: Newspaper, description: 'Read articles' },
+        { path: '/case-studies', label: 'Case Studies', icon: Sparkles, description: 'Women\'s success stories' },
         { path: '/annual-reports', label: 'Annual Report', icon: FileChartLine, description: 'See our activities' },
         { path: '/contact-us', label: 'Contact Us', icon: Mail, description: 'Get in touch' },
       ]
