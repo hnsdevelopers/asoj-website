@@ -22,6 +22,8 @@ import WomenEmpowermentDetail from './pages/projects/WomenEmpowermentDetail'
 import AnnualReports from './pages/AnnualReports'
 import Blog from './pages/Blog'
 import BlogPost from './pages/BlogPost'
+import CaseStudies from './pages/CaseStudies'
+import CaseStudyDetail from './pages/CaseStudyDetail'
 import NotFound from './pages/NotFound'
 
 /* 🔥 Scroll to Top Component (ONLY ADDITION) */
@@ -295,6 +297,28 @@ function App() {
             keywords="ASOJ blog, impact story, success story, community development"
         />
         <BlogPost />
+    </>
+} />
+
+            <Route path="/case-studies" element={
+    <>
+        <SEO
+            title="Case Studies"
+            description="Real success stories of women supported through our Mahila Panchayat Programme — domestic violence mediation, legal aid, and family reconciliation."
+            keywords="case studies, success stories, Mahila Panchayat, domestic violence support, women empowerment stories"
+        />
+        <CaseStudies />
+    </>
+} />
+
+<Route path="/case-studies/:slug" element={
+    <>
+        <SEO
+            title="Case Study"
+            description="Read a real success story of a woman supported through our Mahila Panchayat Programme."
+            keywords="case study, success story, Mahila Panchayat, women empowerment"
+        />
+        <CaseStudyDetail />
     </>
 } />
 

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowLeft, Laptop, Users, Award, Calendar, CheckCircle, TrendingUp, GraduationCap, Briefcase, Star, Target, BookOpen, Code } from 'lucide-react'
+import { ArrowLeft, Laptop, Users, Award, Calendar, CheckCircle, TrendingUp, GraduationCap, Briefcase, Star, Target, BookOpen, Code, MapPin, AlertTriangle } from 'lucide-react'
 
 const DigitalLearningCentreDetail = () => {
   return (
@@ -65,7 +65,87 @@ const DigitalLearningCentreDetail = () => {
               </div>
             </div>
 
-            {/* Course Details */}
+            {/* Community Context */}
+            <div className="mb-12">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                <MapPin className="w-8 h-8 text-orange-500" />
+                The Community We Serve
+              </h2>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Ghazipur and Sapera Basti are slum settlements in East Delhi, home to a marginalized waste-picker
+                community living near a landfill in difficult sanitation conditions. Most residents are migrants
+                from Bihar, Uttar Pradesh, and West Bengal. Over 730 families in the area face significant challenges,
+                including a school dropout rate of around 20%, child labour, child marriage, limited menstrual
+                hygiene resources, and restricted mobility for girls.
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                Many women in the community work as domestic helpers, while men often face challenges with alcoholism.
+                Over 500 children in the area are currently out of school. The Child Activity Centre and Digital
+                Learning Centre were established to directly address these gaps through education, digital literacy,
+                and safe community spaces for children and adolescents.
+              </p>
+            </div>
+
+            {/* Centre-wide Reach */}
+            <div className="mb-12">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                <Users className="w-8 h-8 text-orange-500" />
+                Centre-wide Reach (Child Activity Centre + DLC)
+              </h2>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Beyond the CCAB certification course, the broader Child Activity Centre and Digital Learning Centre
+                network reaches many more children across two locations, with a focus on re-enrolling school dropouts
+                into consistent academic and computer education.
+              </p>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div className="bg-orange-50 p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-orange-500">83</div>
+                  <p className="text-sm text-gray-600">Children — Ghazipur Centre</p>
+                </div>
+                <div className="bg-orange-50 p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-orange-500">91</div>
+                  <p className="text-sm text-gray-600">Children — Sapera Basti Centre</p>
+                </div>
+                <div className="bg-orange-50 p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-orange-500">70</div>
+                  <p className="text-sm text-gray-600">Children in DLC Programme</p>
+                </div>
+                <div className="bg-orange-50 p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-orange-500">~80%</div>
+                  <p className="text-sm text-gray-600">Reported Improved Exam Scores</p>
+                </div>
+                <div className="bg-orange-50 p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-orange-500">40</div>
+                  <p className="text-sm text-gray-600">Children Now Computer-Independent</p>
+                </div>
+                <div className="bg-orange-50 p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-orange-500">+15%</div>
+                  <p className="text-sm text-gray-600">Increase in Attendance</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Challenges */}
+            <div className="mb-12 bg-gray-50 p-6 rounded-xl">
+              <h3 className="text-xl font-bold text-gray-800 mb-3 flex items-center gap-2">
+                <AlertTriangle className="w-6 h-6 text-orange-500" />
+                Challenges We're Working Through
+              </h3>
+              <ul className="space-y-2 text-gray-700">
+                <li className="flex items-start gap-2">
+                  <span className="text-orange-500 mt-1">•</span>
+                  <span>Limited computer systems mean students are taught in smaller, rotating shifts</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-orange-500 mt-1">•</span>
+                  <span>Irregular attendance due to seasonal family migration or household responsibilities</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-orange-500 mt-1">•</span>
+                  <span>Frequent power outages and fluctuating internet connectivity disrupt digital learning</span>
+                </li>
+              </ul>
+            </div>
             <div className="mb-12">
               <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 flex items-center gap-2">
                 <BookOpen className="w-8 h-8 text-orange-500" />

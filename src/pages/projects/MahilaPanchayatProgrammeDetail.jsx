@@ -1,7 +1,17 @@
-import { Calendar, MapPin, Users, Heart, Scale, Award, Target, Phone, Mail, ArrowLeft, CheckCircle, TrendingUp } from 'lucide-react'
+import { useState, useEffect } from 'react'
+import { Calendar, MapPin, Users, Heart, Scale, Award, Target, Phone, Mail, ArrowLeft, CheckCircle, TrendingUp, Sparkles } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 const MahilaPanchayatProgrammeDetail = () => {
+  const [activities, setActivities] = useState([])
+
+  useEffect(() => {
+    fetch('/assets/mahila-panchayat-activities.json')
+      .then((res) => res.json())
+      .then((data) => setActivities(data.activities))
+      .catch((err) => console.error('Error loading activities:', err))
+  }, [])
+
   return (
     <div>
       {/* Hero Section */}
@@ -158,26 +168,39 @@ const MahilaPanchayatProgrammeDetail = () => {
 
             {/* Gender Sensitization */}
             <div className="mb-12">
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Gender Sensitization Workshops</h2>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                Two gender sensitization workshops were conducted with <strong>40 women participants</strong> in each workshop. 
-                Discussions focused on social norms, cultural practices, and the importance of equality within families and communities.
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6 flex items-center gap-2">
+                <Sparkles className="w-8 h-8 text-orange-500" />
+                Activities & Campaigns
+              </h2>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Beyond individual case resolution, the Mahila Panchayat runs regular awareness workshops,
+                legal literacy camps, and community campaigns to build long-term change.
               </p>
-              <p className="text-gray-700 leading-relaxed">
-                Participants discussed how patriarchal social structure influences gender discrimination and contributes 
-                to the exploitation of girls and women. Poster making, slogan writing, and nukkad play activities were 
-                organized during this campaign.
-              </p>
-            </div>
 
-            {/* Capacity Building */}
-            <div className="mb-12 bg-gray-50 p-6 rounded-xl">
-              <h3 className="text-xl font-bold text-gray-800 mb-3">Capacity Building Training for Panchayat Members</h3>
-              <p className="text-gray-700">
-                A capacity-building training program was organized to strengthen skills of Mahila Panchayat members 
-                in dispute resolution and counseling. The training included case-handling processes, role-play exercises, 
-                and interactive activities to illustrate court procedures and the structure of women's Panchayat.
-              </p>
+              <div className="space-y-6">
+                {activities.map((activity) => (
+                  <div key={activity.id} className="bg-white p-5 rounded-lg shadow-md border-l-4 border-orange-400">
+                    <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+                      <h3 className="font-bold text-gray-800 text-lg">{activity.title}</h3>
+                      <span className="px-3 py-1 bg-orange-50 text-orange-600 text-xs rounded-full font-medium">
+                        {activity.category}
+                      </span>
+                    </div>
+                    <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500 mb-3">
+                      <span className="flex items-center gap-1">
+                        <Calendar className="w-4 h-4" /> {activity.date}
+                      </span>
+                      <span className="flex items-center gap-1">
+                        <MapPin className="w-4 h-4" /> {activity.location}
+                      </span>
+                      <span className="flex items-center gap-1">
+                        <Users className="w-4 h-4" /> {activity.participants}
+                      </span>
+                    </div>
+                    <p className="text-gray-600">{activity.summary}</p>
+                  </div>
+                ))}
+              </div>
             </div>
 
             {/* Success Stories */}

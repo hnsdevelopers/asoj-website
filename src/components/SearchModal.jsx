@@ -15,7 +15,8 @@ import {
   Image,
   Mail,
   Heart,
-  ArrowRight
+  ArrowRight,
+  Sparkles
 } from 'lucide-react'
 import { Link, useNavigate } from 'react-router-dom'
 
@@ -34,6 +35,7 @@ const SearchModal = ({ isOpen, onClose }) => {
     { path: '/mahila-panchayat-programme', title: 'Mahila Panchayat Programme', icon: Users, content: 'Mahila Panchayat, women empowerment, gender justice, community justice' },
     { path: '/proposed-intervention-area', title: 'Proposed Intervention Area', icon: Map, content: 'Intervention area, Gharoli, demographic information, community outreach' },
     { path: '/gallery', title: 'Gallery', icon: Image, content: 'Photo gallery, events, activities, community programs' },
+    { path: '/case-studies', title: 'Case Studies', icon: Sparkles, content: 'Case studies, success stories, women empowered, Mahila Panchayat, domestic violence support' },
     { path: '/contact-us', title: 'Contact Us', icon: Mail, content: 'Contact, address, phone, email, location' },
     { path: '/donate-now', title: 'Donate Now', icon: Heart, content: 'Donate, support, contribution, fundraiser' },
   ]
