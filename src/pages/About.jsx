@@ -213,7 +213,7 @@ const About = () => {
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-start gap-2 text-sm">
                     <CheckCircle className="w-4 h-4 text-green-500 mt-0.5" />
-                    <span>Registered 250+ domestic violence cases</span>
+                    <span>Registered 2500+ domestic violence cases</span>
                   </li>
                   <li className="flex items-start gap-2 text-sm">
                     <CheckCircle className="w-4 h-4 text-green-500 mt-0.5" />
@@ -345,9 +345,9 @@ const About = () => {
               <p className="text-xs opacity-75 mt-1">Across East Delhi</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold mb-2">250+</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2">2500+</div>
               <p className="text-sm opacity-90">DV Cases Handled</p>
-              <p className="text-xs opacity-75 mt-1">102 Successfully Resolved</p>
+              <p className="text-xs opacity-75 mt-1">2000+ Successfully Resolved</p>
             </div>
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold mb-2">160+</div>
