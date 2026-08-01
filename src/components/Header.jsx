@@ -95,7 +95,7 @@ const Header = () => {
 
   const topBarLinks = [
     { icon: Phone, text: '099 695 695 35', href: 'tel:09969569535' },
-    { icon: MapPin, text: '62 B Law Apartment Karkarduma Delhi 110092' },
+    { icon: MapPin, text: 'B-12-A, Gali No. 2, East Nathu Colony, Delhi-110093' },
   ]
 
   const toggleDropdown = (dropdownName, e) => {
