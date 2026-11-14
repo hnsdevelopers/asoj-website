@@ -1,0 +1,178 @@
+{
+  "framework": null,
+  "buildCommand": null,
+  "installCommand": null,
+  "outputDirectory": ".",
+  "redirects": [
+    {
+      "source": "/about",
+      "destination": "/about.html",
+      "permanent": true
+    },
+    {
+      "source": "/our-history",
+      "destination": "/our-history.html",
+      "permanent": true
+    },
+    {
+      "source": "/our-vision-mission",
+      "destination": "/our-vision-mission.html",
+      "permanent": true
+    },
+    {
+      "source": "/our-project",
+      "destination": "/our-project.html",
+      "permanent": true
+    },
+    {
+      "source": "/mahila-panchayat-programme",
+      "destination": "/mahila-panchayat-programme.html",
+      "permanent": true
+    },
+    {
+      "source": "/our-project/mahila-panchayat-programme",
+      "destination": "/mahila-panchayat-programme.html",
+      "permanent": true
+    },
+    {
+      "source": "/proposed-intervention-area",
+      "destination": "/proposed-intervention-area.html",
+      "permanent": true
+    },
+    {
+      "source": "/gallery",
+      "destination": "/gallery.html",
+      "permanent": true
+    },
+    {
+      "source": "/gallery/education",
+      "destination": "/gallery.html",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/contact-us.html",
+      "permanent": true
+    },
+    {
+      "source": "/donate-now",
+      "destination": "/donate-now.html",
+      "permanent": true
+    },
+    {
+      "source": "/annual-reports",
+      "destination": "/annual-reports.html",
+      "permanent": true
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog.html",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies",
+      "destination": "/case-studies.html",
+      "permanent": true
+    },
+    {
+      "source": "/our-project/child-activity-centres",
+      "destination": "/child-education-and-rights.html",
+      "permanent": true
+    },
+    {
+      "source": "/our-project/child-protection",
+      "destination": "/child-education-and-rights.html",
+      "permanent": true
+    },
+    {
+      "source": "/our-project/digital-learning-centre",
+      "destination": "/child-education-and-rights.html",
+      "permanent": true
+    },
+    {
+      "source": "/our-project/health-wash",
+      "destination": "/our-project-health-wash.html",
+      "permanent": true
+    },
+    {
+      "source": "/our-project/women-empowerment",
+      "destination": "/our-project-women-empowerment.html",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mahila-panchayat-empowering-women-through-community-justice",
+      "destination": "/blog.html#post-0",
+      "permanent": true
+    },
+    {
+      "source": "/blog/digital-learning-centre-bridging-the-digital-divide",
+      "destination": "/blog.html#post-1",
+      "permanent": true
+    },
+    {
+      "source": "/blog/child-activity-centres-transforming-education-for-marginalized-children",
+      "destination": "/blog.html#post-2",
+      "permanent": true
+    },
+    {
+      "source": "/blog/breaking-the-silence-chuppi-todo-campaign-against-domestic-violence",
+      "destination": "/blog.html#post-3",
+      "permanent": true
+    },
+    {
+      "source": "/blog/health-camps-bringing-healthcare-to-doorsteps",
+      "destination": "/blog.html#post-4",
+      "permanent": true
+    },
+    {
+      "source": "/blog/out-of-school-children-back-to-school-campaign",
+      "destination": "/blog.html#post-5",
+      "permanent": true
+    },
+    {
+      "source": "/blog/mental-health-awareness-workshops-for-children",
+      "destination": "/blog.html#post-6",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gender-sensitization-workshops-changing-mindsets",
+      "destination": "/blog.html#post-7",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:slug",
+      "destination": "/blog.html",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies/:slug",
+      "destination": "/case-studies.html",
+      "permanent": true
+    },
+    {
+      "source": "/assets/Annual Report 2021-22.pdf",
+      "destination": "/assets/annual-report-2021-22.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/assets/Annual Report 2022-23.pdf",
+      "destination": "/assets/annual-report-2022-23.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/assets/Annual Report 2023-24.pdf",
+      "destination": "/assets/annual-report-2023-24.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/assets/Annual Report 2024-25.pdf",
+      "destination": "/assets/annual-report-2024-25.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/assets/Annual Report 2025-26.pdf",
+      "destination": "/assets/annual-report-2025-26.pdf",
+      "permanent": true
+    }
+  ]
+}
